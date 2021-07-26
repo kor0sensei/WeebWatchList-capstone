@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { BrowserRoute as Router } from "react-router-dom"
+import { BrowserRouter as Router } from "react-router-dom"
 import { WeebWatchList } from "./components/WeebWatchList.js" 
 import "./index.css"
 
