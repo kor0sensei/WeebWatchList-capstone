@@ -1,15 +1,15 @@
-.anime {
+.watchlist {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     flex-direction: column;
   }
   
-  .anime__card {
+  .watchlist__card {
       flex-basis: 28%;
       margin: 1em;
       padding: 1em;
-      border: 8px solid rgb(223, 10, 10);
+      border: 8px solid rgb(10, 14, 223);
       box-shadow: 5px 5px 15px 5px #000000;
       max-width: 500px;
   }

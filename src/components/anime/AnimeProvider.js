@@ -3,28 +3,17 @@ import React, { useState, createContext } from "react"
 export const AnimeContext = createContext()
 
 export const AnimeProvider = (props) => {
-    const [animes, setAnimes] = useState([])
+    const [anime, setAnime] = useState([])
 
-    const getAnimes = () => {
-        return fetch("http://localhost:8088/animes")
+    const getAnime = () => {
+        return fetch("http://localhost:8088/anime")
         .then(res => res.json())
-        .then(setAnimes)
-    }
-
-    const addAnime = animeObj => {
-        return fetch("http://localhost:8088/animes", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json"
-            },
-            body: JSON.stringify(animeObj)
-        })
-        .then(getAnimes)
+        .then(setAnime)
     }
 
     return (
         <AnimeContext.Provider value={{
-            animes, getAnimes, addAnime
+            anime, getAnime
         }}>
             {props.children}
         </AnimeContext.Provider>
