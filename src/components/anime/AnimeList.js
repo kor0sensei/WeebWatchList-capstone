@@ -4,19 +4,17 @@ import { AnimeCard } from "./AnimeCard"
 import "./Anime.css"
 
 export const AnimeList = () => {
-  const { animes, getAnimes } = useContext(AnimeContext)
+  const { anime, getAnime } = useContext(AnimeContext)
 
   useEffect(() => {
-    console.log("AnimeList: useEffect - getAnimes")
-    getAnimes()
+    getAnime()
   }, [])
 
 
   return (
-    <div className="animes">
-      {console.log("AnimeList: Render", animes)}
+    <div className="anime">
       {
-        animes.map(anime => {
+        anime.map(anime => {
           return <AnimeCard key={anime.id} anime={anime} />
         })
       }

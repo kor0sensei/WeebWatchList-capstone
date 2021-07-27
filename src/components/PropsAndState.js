@@ -1,10 +1,10 @@
-import React, { useState } from "react"
+// import React from "react"
 
-export const PropsAndState = ({ yourName }) => {
+// export const PropsAndState = ({ yourName }) => {
 
-  return (
-    <>
-      <h3>Welcome, {yourName} </h3>
-    </>
-  )
-}
+//   return (
+//     <>
+//       <h3>Welcome, {yourName} </h3>
+//     </>
+//   )
+// }
