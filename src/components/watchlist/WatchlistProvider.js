@@ -12,7 +12,7 @@ export const WatchlistProvider = (props) => {
     }
 
     const getWatchlistById = (id) => {
-        return fetch(`http://localhost:8088/watchlist/${id}`)
+        return fetch(`http://localhost:8088/watchlists/${id}`)
         .then(res => res.json())
         }
 
@@ -25,6 +25,13 @@ export const WatchlistProvider = (props) => {
             body: JSON.stringify(watchlistObj)
         })
         .then(getWatchlists)
+        }
+
+        const deleteWatchlist = watchlistId => {
+            return fetch(`http://localhost:8088/watchlists/${watchlistId}`, {
+              method: "DELETE"
+            })
+              .then(getWatchlists)
         }
 
         const updateWatchlist = watchlist => {
@@ -40,7 +47,7 @@ export const WatchlistProvider = (props) => {
 
     return (
         <WatchlistContext.Provider value={{
-            watchlists, getWatchlists, setWatchlists, getWatchlistById, addWatchlist, updateWatchlist
+            watchlists, getWatchlists, setWatchlists, getWatchlistById, addWatchlist, updateWatchlist, deleteWatchlist
         }}>
             {props.children}
         </WatchlistContext.Provider>

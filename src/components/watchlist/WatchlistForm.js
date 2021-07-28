@@ -1,15 +1,16 @@
 import React, { useContext, useEffect, useState } from "react"
-import { useHistory } from 'react-router-dom';
+import { useHistory, useParams } from 'react-router-dom';
 import { WatchlistContext } from "../watchlist/WatchlistProvider"
 import { AnimeContext } from "../anime/AnimeProvider"
 import "./Watchlist.css"
 
 export const WatchlistForm = () => {
-  const { addWatchlist } = useContext(WatchlistContext)
+  const { addWatchlist, getWatchlistById, updateWatchlist, getWatchlists } = useContext(WatchlistContext)
+
   const { anime, getAnime } = useContext(AnimeContext)
 
   const [watchlist, setWatchlist] = useState({
-    anime: "",
+    animeId: "",
     finishedWatching: "",
     dateStartedWatching: "",
     dateFinishedWatching: "",
@@ -17,39 +18,76 @@ export const WatchlistForm = () => {
     droppedAnime: "",
   });
 
-  const history = useHistory();
-
+  
   useEffect(() => {
-    getAnime()
-}, [])
-
+      getWatchlists()
+    }, [])
     
+    const [isLoading, setIsLoading] = useState(true);
+    const { watchlistId } = useParams();
+    const history = useHistory();
 
 
-  const handleControlledInputChange = (event) => {
+  const handleControlledInputChange = (controlWatchlist) => {
 
     const newWatchlist = { ...watchlist }
-
-    newWatchlist[event.target.id] = event.target.value
-
-    setWatchlist(newWatchlist)
+    let selectedVal = controlWatchlist.target.value
+        
+    if (controlWatchlist.target.id.includes("Id")) {
+     selectedVal = parseInt(selectedVal)
+    }
+     newWatchlist[controlWatchlist.target.id] = selectedVal
+     setWatchlist(newWatchlist)
   }
 
-  const handleClickSaveWatchlist = (event) => {
-    event.preventDefault()
+const handleClickSaveWatchlist = (controlWatchlist) => {
+    controlWatchlist.preventDefault()
+    if (watchlist.userEpCount === "") {
+      window.alert("Please fill out ep count")
+        
+  } else {
+      setIsLoading(true);
 
-      const newWatchlist = {
-        anime: watchlist.anime,
+} if  (watchlistId){
+    updateWatchlist({
+        id: watchlistId,
+        animeId: parseInt(watchlist.animeId),
         finishedWatching: watchlist.finishedWatching,
         dateStartedWatching: watchlist.dateStartedWatching,
         dateFinishedWatching: watchlist.dateFinishedWatching,
-        userEpCount: watchlist.userEpCount,
+        userEpCount: parseInt(watchlist.userEpCount),
         droppedAnime: watchlist.droppedAnime,
-      }
-      addWatchlist(newWatchlist)
-        .then(() => history.push("/watchlist"))
-
+        userId: parseInt(localStorage.getItem("weeb_user"))
+        
+    })
+    .then(() => history.push("/watchlist"))
+} else {
+      addWatchlist({
+        animeId: parseInt(watchlist.animeId),
+        finishedWatching: watchlist.finishedWatching,
+        dateStartedWatching: watchlist.dateStartedWatching,
+        dateFinishedWatching: watchlist.dateFinishedWatching,
+        userEpCount: parseInt(watchlist.userEpCount),
+        droppedAnime: watchlist.droppedAnime,
+        userId: parseInt(localStorage.getItem("weeb_user"))
+    })
+    .then(() => history.push("/watchlist"))
+    }
   }
+
+  useEffect(() => {
+    getAnime().then(() => {
+      if (watchlistId) {
+        getWatchlistById(watchlistId)
+        .then(watchlist => {
+            setWatchlist(watchlist)
+            setIsLoading(false)
+        })
+      } else {
+        setIsLoading(false)
+      }
+    })
+  }, [])
 
 return (
     <>
@@ -58,11 +96,11 @@ return (
       <fieldset>
           <div className="form-group">
             <label htmlFor="anime">Select an anime: </label>
-            <select value={watchlist.animeId} name="animeId" id="watchlistAnime" className="form-control" onChange={handleControlledInputChange}>
+            <select value={watchlist.animeId} name="animeId" id="animeId" className="form-control" onChange={handleControlledInputChange}>
               <option value="0">Select an anime</option>
               {anime.map(anime => (
                 <option key={anime.id} value={anime.id}>
-                {anime.title}
+                {anime.title} Ep Count {anime.epCount}
                 </option>
               ))}
             </select>
@@ -72,8 +110,10 @@ return (
           <div className="form-group">
           <label htmlFor="userEpCount">Eps Seen:</label>
           <input type="text" id="userEpCount" required autoFocus className="form-control" value={watchlist.userEpCount} onChange={handleControlledInputChange} />
-          {/* /{anime.find(animeObj => (
-            {anime.epCount}
+          {/* /{anime.find(animeobj => (
+          <label key={anime.id} value={anime.id}>
+              {animeobj.epCount}
+          </label>
           ))} */}
           </div>
       </fieldset>
@@ -89,14 +129,13 @@ return (
           <input type="date" id="dateFinishedWatching" required autoFocus className="form-control" value={watchlist.dateFinishedWatching} onChange={handleControlledInputChange} />
           </div>
       </fieldset>
-      <button className="btn btn-primary" onClick={handleClickSaveWatchlist}>
+      <button className="btn btn-primary" disabled={isLoading} onClick={handleClickSaveWatchlist}>
           Save Anime to Watch List
           </button>
       </form>
   </>
 )
 }
-// disabled={isLoading}
 
 // useEffect(() => {
 //     getAnime().then(() => {
