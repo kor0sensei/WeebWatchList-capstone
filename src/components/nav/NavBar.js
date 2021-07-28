@@ -28,7 +28,7 @@ export const NavBar = (props) => {
           <Link className="navbar-link" to="/dropped">Dropped</Link>
         </li>
         <li className="navbar-item">
-          <Link className="navbar-link" to="/plan">Plan to Watch</Link>
+          <Link className="navbar-link" to="/plantowatch">Plan to Watch</Link>
         </li>
         <li className="navbar-item">
           <Link className="navbar-link" onClick={handleLogout} to="/login"> Logout </Link>

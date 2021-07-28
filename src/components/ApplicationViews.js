@@ -11,9 +11,13 @@ import { WatchlistForm } from "./watchlist/WatchlistForm"
 export const ApplicationViews = () => {
     return(
         <>
-            <Route exact path="/">
-                <Home />
-            </Route>
+            <AnimeProvider>
+                    <Route exact path="/">
+                        <Home />
+                        <AnimeList />
+                    </Route>
+            </AnimeProvider>
+            
 
             <AnimeProvider>
                 <WatchlistProvider>
@@ -22,6 +26,10 @@ export const ApplicationViews = () => {
                     </Route>
 
                     <Route path="/watchlist/create">
+                        <WatchlistForm />
+                    </Route>
+
+                    <Route path="/watchlists/edit/:watchlistId(\d+)">
                         <WatchlistForm />
                     </Route>
                 </WatchlistProvider>
