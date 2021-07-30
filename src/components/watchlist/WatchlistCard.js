@@ -13,9 +13,8 @@ return(
 <>
     <section className="watchlist__card">
         <h3 className="watchlist__name">{watchlist.anime.title}</h3>
-        <div className="watchlist__userEpCount"> Eps Watched {watchlist.userEpCount}</div>
+        <div className="watchlist__userEpCount"> Eps Watched {watchlist.userEpCount} <button className="addEpButton">+</button></div>
         <button className="editButton" onClick={() => { history.push(`/watchlists/edit/${watchlist.id}`)}}>Edit</button>
-        <button className="addEpButton">+</button>
         <button className="deleteButton" onClick={ event => {deleteWatchlist(watchlist.id) }}>Remove from Watchlist</button>
     </section>
 </>

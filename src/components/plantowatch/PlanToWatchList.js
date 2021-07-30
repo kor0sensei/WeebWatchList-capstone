@@ -1,10 +1,10 @@
 import React, { useContext, useEffect } from "react"
 import { useHistory } from 'react-router-dom';
-import { WatchlistContext } from "./WatchlistProvider"
-import { WatchListCard } from "./WatchlistCard"
-import "./Watchlist.css"
+import { WatchlistContext } from "../watchlist/WatchlistProvider"
+import { WatchListCard } from "../watchlist/WatchlistCard"
+import "../watchlist/Watchlist.css"
 
-export const WatchlistListing = () => {
+export const PlanToWatchList = () => {
   const { watchlists, getWatchlists } = useContext(WatchlistContext)
   const history = useHistory()
 
@@ -18,12 +18,12 @@ export const WatchlistListing = () => {
     <button onClick={() => {history.push("/watchlist/create")}}>
     Add Anime to Watch List
     </button>
-    <h2>My Watch List</h2>
+    <h2>Plan to Watch</h2>
     <div className="watchlist">
       {
         watchlists.map(watchlist => {
             if (
-                watchlist.userId == localStorage.getItem("weeb_user")
+                watchlist.userId == localStorage.getItem("weeb_user") && watchlist.dateStartedWatching === ""
           ){        return <WatchListCard key={watchlist.id} watchlist={watchlist} />
         }})
       }

@@ -16,10 +16,10 @@ export const NavBar = (props) => {
           <Link className="navbar-link" to="/">Weeb Watch List</Link>
         </li>
         <li className="navbar-item">
-          <Link className="navbar-link" to="/watchlist">My watchlist</Link>
+          <Link className="navbar-link" to="/watchlist">My Watch List</Link>
         </li>
         <li className="navbar-item">
-          <Link className="navbar-link" to="/currentlywatching">Watching</Link>
+          <Link className="navbar-link" to="/watching">Watching</Link>
         </li>
         <li className="navbar-item">
           <Link className="navbar-link" to="/finished">Finished</Link>

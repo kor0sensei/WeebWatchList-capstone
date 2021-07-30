@@ -10,10 +10,14 @@ export const AnimeProvider = (props) => {
         .then(res => res.json())
         .then(setAnime)
     }
+    const getAnimeById = (id) => {
+        return fetch(`http://localhost:8088/anime/${id}`)
+        .then(res => res.json())
+        }
 
     return (
         <AnimeContext.Provider value={{
-            anime, getAnime
+            anime, getAnime, getAnimeById
         }}>
             {props.children}
         </AnimeContext.Provider>
