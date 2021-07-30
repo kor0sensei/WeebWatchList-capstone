@@ -15,7 +15,7 @@ export const WatchlistForm = () => {
     dateStartedWatching: "",
     dateFinishedWatching: "",
     userEpCount: "",
-    droppedAnime: "",
+    dropped: "",
   });
 
   
@@ -26,6 +26,19 @@ export const WatchlistForm = () => {
     const [isLoading, setIsLoading] = useState(true);
     const { watchlistId } = useParams();
     const history = useHistory();
+
+    const handleCheckBox = () => {
+      updateWatchlist({
+          id: watchlist.id,
+          animeId: watchlist.animeId,
+          dateStartedWatching: watchlist.dateStartedWatching,
+          dateFinishedWatching: watchlist.dateFinishedWatching,
+          userEpCount: watchlist.userEpCount,
+          dropped: true,
+          userId: watchlist.userId
+      })
+      .then(() => history.push("/watchlist"))
+  }
 
 
   const handleControlledInputChange = (controlWatchlist) => {
@@ -42,38 +55,34 @@ export const WatchlistForm = () => {
 
 const handleClickSaveWatchlist = (controlWatchlist) => {
     controlWatchlist.preventDefault()
-    if (watchlist.userEpCount === "") {
-      window.alert("Please fill out ep count")
-        
+    if (watchlist.animeId === "") {
+      window.alert("Please select an Anime")
   } else {
       setIsLoading(true);
 
-} if  (watchlistId){
+ if  (watchlistId){
     updateWatchlist({
         id: watchlistId,
         animeId: parseInt(watchlist.animeId),
-        finishedWatching: watchlist.finishedWatching,
         dateStartedWatching: watchlist.dateStartedWatching,
         dateFinishedWatching: watchlist.dateFinishedWatching,
         userEpCount: parseInt(watchlist.userEpCount),
-        droppedAnime: watchlist.droppedAnime,
+        dropped: watchlist.dropped,
         userId: parseInt(localStorage.getItem("weeb_user"))
-        
     })
     .then(() => history.push("/watchlist"))
 } else {
       addWatchlist({
         animeId: parseInt(watchlist.animeId),
-        finishedWatching: watchlist.finishedWatching,
         dateStartedWatching: watchlist.dateStartedWatching,
         dateFinishedWatching: watchlist.dateFinishedWatching,
         userEpCount: parseInt(watchlist.userEpCount),
-        droppedAnime: watchlist.droppedAnime,
+        dropped: false,
         userId: parseInt(localStorage.getItem("weeb_user"))
     })
     .then(() => history.push("/watchlist"))
     }
-  }
+  }}
 
   useEffect(() => {
     getAnime().then(() => {
@@ -92,7 +101,7 @@ const handleClickSaveWatchlist = (controlWatchlist) => {
 return (
     <>
       <form className="watchlistForm">
-      <h2 className="watchlistForm__title">Add Anime to WatchList</h2>
+      <h2 className="watchlistForm__title">{watchlistId ? "Update Watchlist" : "Add Anime to Watchlist" }</h2>
       <fieldset>
           <div className="form-group">
             <label htmlFor="anime">Select an anime: </label>
@@ -129,24 +138,16 @@ return (
           <input type="date" id="dateFinishedWatching" required autoFocus className="form-control" value={watchlist.dateFinishedWatching} onChange={handleControlledInputChange} />
           </div>
       </fieldset>
+      <fieldset>
+          <div className="form-group">
+          <label htmlFor="checkbox">Mark as Dropped</label>
+            <input type="checkbox" id="checkbox" unchecked="" onChange={handleCheckBox} />
+          </div>
+      </fieldset>
       <button className="btn btn-primary" disabled={isLoading} onClick={handleClickSaveWatchlist}>
-          Save Anime to Watch List
+      {watchlistId ? "Update Watchlist" : "Add Anime to Watchlist" }
           </button>
       </form>
   </>
 )
 }
-
-// useEffect(() => {
-//     getAnime().then(() => {
-//       if (animeId) {
-//         getAnimeById(animeId)
-//         .then(anime => {
-//             setAnime(anime)
-//             setIsLoading(false)
-//         })
-//       } else {
-//         setIsLoading(false)
-//       }
-//     })
-//   }, [])
