@@ -1,0 +1,231 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "name": "Avery Olmstead",
+        "email": "avery@olmstead.com"
+      },
+      {
+        "email": "maka@alburn.com",
+        "name": "Maka Alburn",
+        "id": 2
+      }
+    ],
+    "anime": [
+      {
+        "id": 1,
+        "title": "Code Geass",
+        "epCount": 50,
+        "status": "Finished",
+        "seasonOfRelease": "Fall",
+        "yearOfRelease": "2006"
+      },
+      {
+        "id": 2,
+        "title": "FullMetal Alchemist: Brotherhood",
+        "img": "images/fma.jpg",
+        "epCount": 64,
+        "status": "Finished",
+        "seasonOfRelease": "Spring",
+        "yearOfRelease": "2009"
+      },
+      {
+        "id": 3,
+        "title": "Tokyo Revengers",
+        "epCount": 16,
+        "status": "On-Going",
+        "seasonOfRelease": "Spring",
+        "yearOfRelease": "2021"
+      },
+      {
+        "id": 4,
+        "title": "Darwin's Game",
+        "epCount": 11,
+        "status": "Finished",
+        "seasonOfRelease": "Winter",
+        "yearOfRelease": "2020"
+      },
+      {
+        "id": 5,
+        "title": "The Promised Neverland",
+        "epCount": 12,
+        "status": "Finished",
+        "seasonOfRelease": "Winter",
+        "yearOfRelease": "2019"
+      },
+      {
+        "id": 6,
+        "title": "The Promised Neverland 2nd Season",
+        "epCount": 11,
+        "status": "Finished",
+        "seasonOfRelease": "Winter",
+        "yearOfRelease": "2021"
+      },
+      {
+        "id": 7,
+        "title": "Seraph of the End",
+        "epCount": 24,
+        "status": "Finished",
+        "seasonOfRelease": "Spring",
+        "yearOfRelease": "2015"
+      },
+      {
+        "id": 8,
+        "title": "The Seven Deadly Sins",
+        "epCount": 96,
+        "status": "Finished",
+        "seasonOfRelease": "Fall",
+        "yearOfRelease": "2015"
+      },
+      {
+        "id": 9,
+        "title": "Hunter x Hunter",
+        "epCount": 148,
+        "status": "Finished",
+        "seasonOfRelease": "Fall",
+        "yearOfRelease": "2011"
+      },
+      {
+        "id": 10,
+        "title": "Death Note",
+        "epCount": 37,
+        "status": "Finished",
+        "seasonOfRelease": "Fall",
+        "yearOfRelease": "2006"
+      },
+      {
+        "id": 11,
+        "title": "Parasyte",
+        "epCount": 24,
+        "status": "Finished",
+        "seasonOfRelease": "Fall",
+        "yearOfRelease": "2014"
+      },
+      {
+        "id": 12,
+        "title": "Tokyo Ghoul",
+        "epCount": 12,
+        "status": "Finished",
+        "seasonOfRelease": "Summer",
+        "yearOfRelease": "2014"
+      },
+      {
+        "id": 13,
+        "title": "Tokyo Ghoul Root A",
+        "epCount": 12,
+        "status": "Finished",
+        "seasonOfRelease": "Winter",
+        "yearOfRelease": "2015"
+      }
+    ],
+    "watchlists": [
+      {
+        "animeId": 1,
+        "dateStartedWatching": "2021-02-18",
+        "dateFinishedWatching": "2021-07-23",
+        "userEpCount": 50,
+        "dropped": false,
+        "userId": 1,
+        "id": 1
+      },
+      {
+        "animeId": 2,
+        "dateStartedWatching": "2021-06-30",
+        "dateFinishedWatching": "2021-07-30",
+        "userEpCount": 64,
+        "dropped": false,
+        "userId": 1,
+        "id": 2
+      },
+      {
+        "animeId": 3,
+        "dateStartedWatching": "2021-07-22",
+        "dateFinishedWatching": "",
+        "userEpCount": 16,
+        "dropped": false,
+        "userId": 1,
+        "id": 3
+      },
+      {
+        "animeId": 4,
+        "dateStartedWatching": "",
+        "dateFinishedWatching": "",
+        "userEpCount": 0,
+        "dropped": false,
+        "userId": 1,
+        "id": 4
+      },
+      {
+        "animeId": 5,
+        "dateStartedWatching": "2021-07-09",
+        "dateFinishedWatching": "2021-07-30",
+        "userEpCount": 12,
+        "dropped": false,
+        "userId": 1,
+        "id": 5
+      },
+      {
+        "id": 6,
+        "animeId": 6,
+        "dateStartedWatching": "2021-07-22",
+        "dateFinishedWatching": "",
+        "userEpCount": 6,
+        "dropped": true,
+        "userId": 1
+      },
+      {
+        "animeId": 7,
+        "dateStartedWatching": "2021-07-07",
+        "dateFinishedWatching": "",
+        "userEpCount": 14,
+        "dropped": false,
+        "userId": 1,
+        "id": 7
+      },
+      {
+        "animeId": 9,
+        "dateStartedWatching": "2021-07-01",
+        "dateFinishedWatching": "2021-07-30",
+        "userEpCount": 148,
+        "dropped": false,
+        "userId": 1,
+        "id": 8
+      },
+      {
+        "animeId": 10,
+        "dateStartedWatching": "2021-06-30",
+        "dateFinishedWatching": "2021-07-15",
+        "userEpCount": 37,
+        "dropped": false,
+        "userId": 1,
+        "id": 9
+      },
+      {
+        "animeId": 11,
+        "dateStartedWatching": "2021-07-22",
+        "dateFinishedWatching": "2021-07-23",
+        "userEpCount": 24,
+        "dropped": false,
+        "userId": 1,
+        "id": 10
+      },
+      {
+        "animeId": 12,
+        "dateStartedWatching": "2021-07-13",
+        "dateFinishedWatching": "2021-07-30",
+        "userEpCount": 12,
+        "dropped": false,
+        "userId": 1,
+        "id": 11
+      },
+      {
+        "id": 12,
+        "animeId": 13,
+        "dateStartedWatching": "2021-07-15",
+        "dateFinishedWatching": "",
+        "userEpCount": 2,
+        "dropped": true,
+        "userId": 1
+      }
+    ]
+  }
