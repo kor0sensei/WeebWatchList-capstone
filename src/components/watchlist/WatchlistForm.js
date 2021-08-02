@@ -15,7 +15,7 @@ export const WatchlistForm = () => {
     dateStartedWatching: "",
     dateFinishedWatching: "",
     userEpCount: "",
-    dropped: "",
+    dropped: false,
   });
 
   
@@ -27,18 +27,12 @@ export const WatchlistForm = () => {
     const { watchlistId } = useParams();
     const history = useHistory();
 
-    const handleCheckBox = () => {
-      updateWatchlist({
-          id: watchlist.id,
-          animeId: watchlist.animeId,
-          dateStartedWatching: watchlist.dateStartedWatching,
-          dateFinishedWatching: watchlist.dateFinishedWatching,
-          userEpCount: watchlist.userEpCount,
-          dropped: true,
-          userId: watchlist.userId
-      })
-      .then(() => history.push("/watchlist"))
-  }
+    const handleCheckBox = (event) => {
+      event.preventDefault()
+      if (watchlist.dropped === false) {
+      watchlist.dropped = true
+  } else { watchlist.dropped = false 
+}}
 
 
   const handleControlledInputChange = (controlWatchlist) => {
@@ -77,7 +71,7 @@ const handleClickSaveWatchlist = (controlWatchlist) => {
         dateStartedWatching: watchlist.dateStartedWatching,
         dateFinishedWatching: watchlist.dateFinishedWatching,
         userEpCount: parseInt(watchlist.userEpCount),
-        dropped: false,
+        dropped: watchlist.dropped,
         userId: parseInt(localStorage.getItem("weeb_user"))
     })
     .then(() => history.push("/watchlist"))
@@ -140,8 +134,8 @@ return (
       </fieldset>
       <fieldset>
           <div className="form-group">
-          <label htmlFor="checkbox">Mark as Dropped</label>
-            <input type="checkbox" id="checkbox" unchecked="" onChange={handleCheckBox} />
+          <label htmlFor="checkbox">Toggle Dropped</label>
+            <input type="checkbox" id="dropped" unchecked="" onChange={handleCheckBox} />
           </div>
       </fieldset>
       <button className="btn btn-primary" disabled={isLoading} onClick={handleClickSaveWatchlist}>
