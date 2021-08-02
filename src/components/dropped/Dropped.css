@@ -1,0 +1,8 @@
+.watchlist__dropped__card {
+    flex-basis: 28%;
+    margin: 1em;
+    padding: 1em;
+    border: 8px solid rgb(250, 0, 0);
+    box-shadow: 5px 5px 15px 5px #000000;
+    max-width: 500px;
+}

@@ -1,8 +1,7 @@
 import React, { useContext, useEffect } from "react"
 import { useHistory } from 'react-router-dom';
 import { WatchlistContext } from "../watchlist/WatchlistProvider"
-import { WatchListCard } from "../watchlist/WatchlistCard"
-import "../watchlist/Watchlist.css"
+import { PlanToWatchCard } from "./PlanToWatchCard"
 
 export const PlanToWatchList = () => {
   const { watchlists, getWatchlists } = useContext(WatchlistContext)
@@ -24,7 +23,7 @@ export const PlanToWatchList = () => {
         watchlists.map(watchlist => {
             if (
                 watchlist.userId == localStorage.getItem("weeb_user") && watchlist.dateStartedWatching === ""
-          ){        return <WatchListCard key={watchlist.id} watchlist={watchlist} />
+          ){        return <PlanToWatchCard key={watchlist.id} watchlist={watchlist} />
         }})
       }
     </div>

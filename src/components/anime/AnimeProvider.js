@@ -4,6 +4,7 @@ export const AnimeContext = createContext()
 
 export const AnimeProvider = (props) => {
     const [anime, setAnime] = useState([])
+    const [ searchTerms, setSearchTerms ] = useState("")
 
     const getAnime = () => {
         return fetch("http://localhost:8088/anime")
@@ -17,7 +18,7 @@ export const AnimeProvider = (props) => {
 
     return (
         <AnimeContext.Provider value={{
-            anime, getAnime, getAnimeById
+            anime, getAnime, getAnimeById, searchTerms, setSearchTerms
         }}>
             {props.children}
         </AnimeContext.Provider>

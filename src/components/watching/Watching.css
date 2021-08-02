@@ -1,0 +1,8 @@
+.watchlist__watching__card {
+    flex-basis: 28%;
+    margin: 1em;
+    padding: 1em;
+    border: 8px solid rgb(0, 255, 13);
+    box-shadow: 5px 5px 15px 5px #000000;
+    max-width: 500px;
+}

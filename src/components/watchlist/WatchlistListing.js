@@ -2,7 +2,6 @@ import React, { useContext, useEffect } from "react"
 import { useHistory } from 'react-router-dom';
 import { WatchlistContext } from "./WatchlistProvider"
 import { WatchListCard } from "./WatchlistCard"
-import "./Watchlist.css"
 
 export const WatchlistListing = () => {
   const { watchlists, getWatchlists } = useContext(WatchlistContext)

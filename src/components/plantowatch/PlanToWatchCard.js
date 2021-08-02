@@ -1,9 +1,9 @@
 import React, { useContext } from "react"
-import { WatchlistContext } from "./WatchlistProvider"
+import { WatchlistContext } from "../watchlist/WatchlistProvider"
 import { useHistory } from "react-router-dom"
-import "./Watchlist.css"
+import "./PlanToWatch.css"
 
-export const WatchListCard = ({ watchlist }) => {
+export const PlanToWatchCard = ({ watchlist }) => {
 
 const { deleteWatchlist } = useContext(WatchlistContext)
 
@@ -11,7 +11,7 @@ const history = useHistory()
 
 return(
 <>
-    <section className="watchlist__card">
+    <section className="watchlist__plantowatch__card">
         <h3 className="watchlist__name">{watchlist.anime.title}</h3>
         <img className="anime__img" src={watchlist.anime.img} alt={watchlist.anime.title}/>
         <div className="watchlist__userEpCount"> Eps Watched {watchlist.userEpCount} <button className="addEpButton">+</button></div>

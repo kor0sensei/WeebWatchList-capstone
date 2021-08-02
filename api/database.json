@@ -1,567 +1,693 @@
 {
-    "users": [
-      {
-        "id": 1,
-        "name": "Avery Olmstead",
-        "email": "avery@olmstead.com"
-      },
-      {
-        "email": "maka@alburn.com",
-        "name": "Maka Alburn",
-        "id": 2
-      }
-    ],
-    "anime": [
-      {
-        "id": 1,
-        "title": "Soul Eater",
-        "img": "images/souleater.jpg",
-        "epCount": 51,
-        "status": "Finished Airing",
-        "seasonOfRelease": "Spring",
-        "yearOfRelease": "2008"
-      },
-      {
-        "id": 2,
-        "title": "FullMetal Alchemist: Brotherhood",
-        "img": "images/fmab.jpg",
-        "epCount": 64,
-        "status": "Finished Airing",
-        "seasonOfRelease": "Spring",
-        "yearOfRelease": "2009"
-      },
-      {
-        "id": 3,
-        "title": "Tokyo Revengers",
-        "img": "images/tokyorevengers.jpg",
-        "epCount": 16,
-        "status": "Currently Airing",
-        "seasonOfRelease": "Spring",
-        "yearOfRelease": "2021"
-      },
-      {
-        "id": 4,
-        "title": "Darwin's Game",
-        "img": "images/darwinsgame.jpg",
-        "epCount": 11,
-        "status": "Finished Airing",
-        "seasonOfRelease": "Winter",
-        "yearOfRelease": "2020"
-      },
-      {
-        "id": 5,
-        "title": "The Promised Neverland",
-        "epCount": 12,
-        "img": "images/tpnl.jpg",
-        "status": "Finished Airing",
-        "seasonOfRelease": "Winter",
-        "yearOfRelease": "2019"
-      },
-      {
-        "id": 6,
-        "title": "The Promised Neverland 2nd Season",
-        "img": "images/tpnl2.jpg",
-        "epCount": 11,
-        "status": "Finished Airing",
-        "seasonOfRelease": "Winter",
-        "yearOfRelease": "2021"
-      },
-      {
-        "id": 7,
-        "title": "Seraph of the End",
-        "img": "images/seraph.jpg",
-        "epCount": 12,
-        "status": "Finished Airing",
-        "seasonOfRelease": "Spring",
-        "yearOfRelease": "2015"
-      },
-      {
-        "id": 8,
-        "title": "Seraph of the End: Battle in Nagoya",
-        "img": "images/seraph2.jpg",
-        "epCount": 12,
-        "status": "Finished Airing",
-        "seasonOfRelease": "Fall",
-        "yearOfRelease": "2015"
-      },
-      {
-        "id": 9,
-        "title": "Hunter x Hunter",
-        "img": "images/hxh.jpg",
-        "epCount": 148,
-        "status": "Finished Airing",
-        "seasonOfRelease": "Fall",
-        "yearOfRelease": "2011"
-      },
-      {
-        "id": 10,
-        "title": "Death Note",
-        "img": "images/deathnote.jpg",
-        "epCount": 37,
-        "status": "Finished Airing",
-        "seasonOfRelease": "Fall",
-        "yearOfRelease": "2006"
-      },
-      {
-        "id": 11,
-        "title": "Parasyte -the maxim-",
-        "img": "images/parasyte.jpg",
-        "epCount": 24,
-        "status": "Finished Airing",
-        "seasonOfRelease": "Fall",
-        "yearOfRelease": "2014"
-      },
-      {
-        "id": 12,
-        "title": "Code Geass: Lelouch of the Rebellion",
-        "img": "images/codegeass.jpg",
-        "epCount": 25,
-        "status": "Finished Airing",
-        "seasonOfRelease": "Fall",
-        "yearOfRelease": "2006"
-      },
-      {
-        "id": 13,
-        "title": "Code Geass: Lelouch of the Rebellion R2",
-        "img": "images/codegeassr2.jpg",
-        "epCount": 25,
-        "status": "Finished Airing",
-        "seasonOfRelease": "Spring",
-        "yearOfRelease": "2008"
-      },
-      {
-        "id": 14,
-        "title": "The Seven Deadly Sins",
-        "img": "images/7ds.jpg",
-        "epCount": 24,
-        "status": "Finished Airing",
-        "seasonOfRelease": "Fall",
-        "yearOfRelease": "2014"
-      },
-      {
-        "id": 15,
-        "title": "The Seven Deadly Sins: Revival of the Commandments",
-        "img": "images/7ds rc.jpg",
-        "epCount": 24,
-        "status": "Finished Airing",
-        "seasonOfRelease": "Winter",
-        "yearOfRelease": "2018"
-      },
-      {
-        "id": 16,
-        "title": "The Seven Deadly Sins: Wrath of the Gods",
-        "img": "images/7ds wg.jpg",
-        "epCount": 24,
-        "status": "Finished Airing",
-        "seasonOfRelease": "Fall",
-        "yearOfRelease": "2019"
-      },
-      {
-        "id": 17,
-        "title": "The Seven Deadly Sins: Dragon's Judgement",
-        "img": "images/7ds dj.jpg",
-        "epCount": 24,
-        "status": "Finished Airing",
-        "seasonOfRelease": "Winter",
-        "yearOfRelease": "2021"
-      },
-      {
-        "id": 18,
-        "title": "Demon Slayer",
-        "img": "images/demonslayer.jpg",
-        "epCount": 24,
-        "status": "Finished Airing",
-        "seasonOfRelease": "Spring",
-        "yearOfRelease": "2019"
-      },
-      {
-        "id": 19,
-        "title": "Fire Force",
-        "img": "images/fireforce.jpg",
-        "epCount": 24,
-        "status": "Finished Airing",
-        "seasonOfRelease": "Summer",
-        "yearOfRelease": "2019"
-      },
-      {
-        "id": 20,
-        "title": "Fire Force Season 2",
-        "img": "images/fireforce2.jpg",
-        "epCount": 24,
-        "status": "Finished Airing",
-        "seasonOfRelease": "Summer",
-        "yearOfRelease": "2020"
-      },
-      {
-        "id": 21,
-        "title": "Anohana: The Flower We Saw That Day",
-        "img": "images/anohana.jpg",
-        "epCount": 11,
-        "status": "Finished Airing",
-        "seasonOfRelease": "Spring",
-        "yearOfRelease": "2011"
-      },
-      {
-        "id": 22,
-        "title": "Attack on Titan",
-        "img": "images/aot.jpg",
-        "epCount": 25,
-        "status": "Finished Airing",
-        "seasonOfRelease": "Spring",
-        "yearOfRelease": "2013"
-      },
-      {
-        "id": 23,
-        "title": "Attack on Titan Season 2",
-        "img": "images/aot2.jpg",
-        "epCount": 12,
-        "status": "Finished Airing",
-        "seasonOfRelease": "Spring",
-        "yearOfRelease": "2017"
-      },
-      {
-        "id": 24,
-        "title": "Attack on Titan Season 3",
-        "img": "images/aot3.jpg",
-        "epCount": 12,
-        "status": "Finished Airing",
-        "seasonOfRelease": "Summer",
-        "yearOfRelease": "2018"
-      },
-      {
-        "id": 25,
-        "title": "Attack on Titan Season 3 Part 2",
-        "img": "images/aot3 part2.jpg",
-        "epCount": 10,
-        "status": "Finished Airing",
-        "seasonOfRelease": "Spring",
-        "yearOfRelease": "2019"
-      },
-      {
-        "id": 26,
-        "title": "Attack on Titan: The Final Season",
-        "img": "images/aotfinal.jpg",
-        "epCount": 16,
-        "status": "Finished Airing",
-        "seasonOfRelease": "Winter",
-        "yearOfRelease": "2021"
-      },
-      {
-        "id": 27,
-        "title": "Assassination Classroom",
-        "img": "images/assclass.jpg",
-        "epCount": 22,
-        "status": "Finished Airing",
-        "seasonOfRelease": "Winter",
-        "yearOfRelease": "2015"
-      },
-      {
-        "id": 28,
-        "title": "Assassination Classroom 2nd Season",
-        "img": "images/assclass2.jpg",
-        "epCount": 25,
-        "status": "Finished Airing",
-        "seasonOfRelease": "Winter",
-        "yearOfRelease": "2016"
-      },
-      {
-        "id": 29,
-        "title": "Erased",
-        "img": "images/erased.jpg",
-        "epCount": 12,
-        "status": "Finished Airing",
-        "seasonOfRelease": "Winter",
-        "yearOfRelease": "2016"
-      },
-      {
-        "id": 30,
-        "title": "Naruto",
-        "img": "images/naruto.jpg",
-        "epCount": 220,
-        "status": "Finished Airing",
-        "seasonOfRelease": "Fall",
-        "yearOfRelease": "2002"
-      },
-      {
-        "id": 31,
-        "title": "Naruto: Shippuuden",
-        "img": "images/narutoshippuuden.jpg",
-        "epCount": 500,
-        "status": "Finished Airing",
-        "seasonOfRelease": "Winter",
-        "yearOfRelease": "2007"
-      },
-      {
-        "id": 32,
-        "title": "Bleach",
-        "img": "images/bleach.jpg",
-        "epCount": 366,
-        "status": "Finished Airing",
-        "seasonOfRelease": "Fall",
-        "yearOfRelease": "2004"
-      },
-      {
-        "id": 33,
-        "title": "One Piece",
-        "img": "images/onepiece.jpg",
-        "epCount": 984,
-        "status": "Currently Airing",
-        "seasonOfRelease": "Fall",
-        "yearOfRelease": "1999"
-      },
-      {
-        "id": 34,
-        "title": "Rascal Does Not Dream of Bunny Girl Senpai",
-        "img": "images/bunnygirlsenpai.jpg",
-        "epCount": 12,
-        "status": "Finished Airing",
-        "seasonOfRelease": "Fall",
-        "yearOfRelease": "2018"
-      },
-      {
-        "id": 35,
-        "title": "Cowboy Bebop",
-        "img": "images/cowboybebop.jpg",
-        "epCount": 26,
-        "status": "Finished Airing",
-        "seasonOfRelease": "Spring",
-        "yearOfRelease": "1998"
-      },
-      {
-        "id": 36,
-        "title": "Cowboy Bebop",
-        "img": "images/cowboybebop.jpg",
-        "epCount": 26,
-        "status": "Finished Airing",
-        "seasonOfRelease": "Spring",
-        "yearOfRelease": "1998"
-      },
-      {
-        "id": 37,
-        "title": "Darling in the FranXX",
-        "img": "images/ditf.jpg",
-        "epCount": 24,
-        "status": "Finished Airing",
-        "seasonOfRelease": "Winter",
-        "yearOfRelease": "2018"
-      },
-      {
-        "id": 38,
-        "title": "The Future Diary",
-        "img": "images/futurediary.jpg",
-        "epCount": 24,
-        "status": "Finished Airing",
-        "seasonOfRelease": "Fall",
-        "yearOfRelease": "2011"
-      },
-      {
-        "id": 39,
-        "title": "The God of High School",
-        "img": "images/godofhighschool.jpg",
-        "epCount": 13,
-        "status": "Finished Airing",
-        "seasonOfRelease": "Summer",
-        "yearOfRelease": "2020"
-      },
-      {
-        "id": 40,
-        "title": "HoriMiya",
-        "img": "images/horimiya.jpg",
-        "epCount": 13,
-        "status": "Finished Airing",
-        "seasonOfRelease": "Winter",
-        "yearOfRelease": "2021"
-      },
-      {
-        "id": 41,
-        "title": "Jujutsu Kaisen",
-        "img": "images/jjk.jpg",
-        "epCount": 24,
-        "status": "Finished Airing",
-        "seasonOfRelease": "Fall",
-        "yearOfRelease": "2020"
-      },
-      {
-        "id": 42,
-        "title": "Re ZERO -Starting Life in Another World-",
-        "img": "images/rezero.jpg",
-        "epCount": 25,
-        "status": "Finished Airing",
-        "seasonOfRelease": "Spring",
-        "yearOfRelease": "2016"
-      },
-      {
-        "id": 43,
-        "title": "Re ZERO -Starting Life in Another World- Season 2",
-        "img": "images/rezero2.jpg",
-        "epCount": 13,
-        "status": "Finished Airing",
-        "seasonOfRelease": "Summer",
-        "yearOfRelease": "2020"
-      },
-      {
-        "id": 44,
-        "title": "Re ZERO -Starting Life in Another World- Season 2 Part 2",
-        "img": "images/rezero2part2.jpg",
-        "epCount": 12,
-        "status": "Finished Airing",
-        "seasonOfRelease": "Winter",
-        "yearOfRelease": "2021"
-      },
-      {
-        "id": 45,
-        "title": "Toradora!",
-        "img": "images/toradora.jpg",
-        "epCount": 25,
-        "status": "Finished Airing",
-        "seasonOfRelease": "Fall",
-        "yearOfRelease": "2008"
-      },
-      {
-        "id": 46,
-        "title": "Kaguya-sama: Love is War",
-        "img": "images/loveiswar.jpg",
-        "epCount": 12,
-        "status": "Finished Airing",
-        "seasonOfRelease": "Winter",
-        "yearOfRelease": "2019"
-      },
-      {
-        "id": 47,
-        "title": "Kaguya-sama: Love is War Season 2",
-        "img": "images/loveiswar2.jpg",
-        "epCount": 12,
-        "status": "Finished Airing",
-        "seasonOfRelease": "Spring",
-        "yearOfRelease": "2020"
-      },
-      {
-        "id": 48,
-        "title": "No Game No Life",
-        "img": "images/nogamenolife.jpg",
-        "epCount": 12,
-        "status": "Finished Airing",
-        "seasonOfRelease": "Spring",
-        "yearOfRelease": "2014"
-      },
-      {
-        "id": 49,
-        "title": "Violet EverGarden",
-        "img": "images/violetevergarden.jpg",
-        "epCount": 12,
-        "status": "Finished Airing",
-        "seasonOfRelease": "Winter",
-        "yearOfRelease": "2018"
-      },
-      {
-        "id": 50,
-        "title": "Vinland Saga",
-        "img": "images/vinlandsaga.jpg",
-        "epCount": 24,
-        "status": "Finished Airing",
-        "seasonOfRelease": "Summer",
-        "yearOfRelease": "2019"
-      },
-      {
-        "id": 51,
-        "title": "Tonikaku Kawaii",
-        "img": "images/tonikaku.jpg",
-        "epCount": 12,
-        "status": "Finished Airing",
-        "seasonOfRelease": "Fall",
-        "yearOfRelease": "2020"
-      },
-      {
-        "id": 52,
-        "title": "Tokyo Ghoul",
-        "img": "images/tokyoghoul.jpg",
-        "epCount": 12,
-        "status": "Finished Airing",
-        "seasonOfRelease": "Summer",
-        "yearOfRelease": "2014"
-      },
-      {
-        "id": 52,
-        "title": "Tokyo Ghoul √A",
-        "img": "images/tokyoghoulroota.jpg",
-        "epCount": 12,
-        "status": "Finished Airing",
-        "seasonOfRelease": "Winter",
-        "yearOfRelease": "2015"
-      },
-      {
-        "id": 53,
-        "title": "Tokyo Ghoul:re",
-        "img": "images/tokyoghoulre.jpg",
-        "epCount": 12,
-        "status": "Finished Airing",
-        "seasonOfRelease": "Spring",
-        "yearOfRelease": "2018"
-      },
-      {
-        "id": 54,
-        "title": "Tokyo Ghoul:re 2nd Season",
-        "img": "images/tokyoghoulre2.jpg",
-        "epCount": 12,
-        "status": "Finished Airing",
-        "seasonOfRelease": "Spring",
-        "yearOfRelease": "2018"
-      },
-      {
-        "id": 55,
-        "title": "My Hero Academia",
-        "img": "images/myhero.jpg",
-        "epCount": 13,
-        "status": "Finished Airing",
-        "seasonOfRelease": "Spring",
-        "yearOfRelease": "2016"
-      },
-      {
-        "id": 56,
-        "title": "My Hero Academia Season 2",
-        "img": "images/myhero2.jpg",
-        "epCount": 25,
-        "status": "Finished Airing",
-        "seasonOfRelease": "Spring",
-        "yearOfRelease": "2017"
-      },
-      {
-        "id": 57,
-        "title": "My Hero Academia Season 3",
-        "img": "images/myhero3.jpg",
-        "epCount": 25,
-        "status": "Finished Airing",
-        "seasonOfRelease": "Spring",
-        "yearOfRelease": "2018"
-      },
-      {
-        "id": 58,
-        "title": "My Hero Academia Season 4",
-        "img": "images/myhero4.jpg",
-        "epCount": 25,
-        "status": "Finished Airing",
-        "seasonOfRelease": "Fall",
-        "yearOfRelease": "2019"
-      },
-      {
-        "id": 59,
-        "title": "My Hero Academia Season 5",
-        "img": "images/myhero5.jpg",
-        "epCount": 25,
-        "status": "Currently Airing",
-        "seasonOfRelease": "Spring",
-        "yearOfRelease": "2021"
-      },
-      {
-        "id": 60,
-        "title": "Black Clover",
-        "img": "images/blackclover.jpg",
-        "epCount": 170,
-        "status": "Finished Airing",
-        "seasonOfRelease": "Fall",
-        "yearOfRelease": "2017"
-      }
-    ],
-    "watchlists": [
-    ]
-  }
+  "users": [
+    {
+      "id": 1,
+      "name": "Avery Olmstead",
+      "email": "avery@olmstead.com"
+    },
+    {
+      "email": "maka@alburn.com",
+      "name": "Maka Alburn",
+      "id": 2
+    }
+  ],
+  "anime": [
+    {
+      "id": 1,
+      "title": "Soul Eater",
+      "img": "https://res.cloudinary.com/kor0sensei/image/upload/v1627919558/Capstone%20Images/souleater_fjfvcu.jpg",
+      "epCount": 51,
+      "status": "Finished Airing",
+      "seasonOfRelease": "Spring",
+      "yearOfRelease": "2008"
+    },
+    {
+      "id": 2,
+      "title": "FullMetal Alchemist: Brotherhood",
+      "img": "https://res.cloudinary.com/kor0sensei/image/upload/v1627919555/Capstone%20Images/fmab_j6hd3s.jpg",
+      "epCount": 64,
+      "status": "Finished Airing",
+      "seasonOfRelease": "Spring",
+      "yearOfRelease": "2009"
+    },
+    {
+      "id": 3,
+      "title": "Tokyo Revengers",
+      "img": "https://res.cloudinary.com/kor0sensei/image/upload/v1627919558/Capstone%20Images/tokyorevengers_gx6asr.jpg",
+      "epCount": 17,
+      "status": "Currently Airing",
+      "seasonOfRelease": "Spring",
+      "yearOfRelease": "2021"
+    },
+    {
+      "id": 4,
+      "title": "Darwin's Game",
+      "img": "https://res.cloudinary.com/kor0sensei/image/upload/v1627919560/Capstone%20Images/darwinsgame_tiqptt.jpg",
+      "epCount": 11,
+      "status": "Finished Airing",
+      "seasonOfRelease": "Winter",
+      "yearOfRelease": "2020"
+    },
+    {
+      "id": 5,
+      "title": "The Promised Neverland",
+      "epCount": 12,
+      "img": "https://res.cloudinary.com/kor0sensei/image/upload/v1627919558/Capstone%20Images/tpnl_r60dkj.jpg",
+      "status": "Finished Airing",
+      "seasonOfRelease": "Winter",
+      "yearOfRelease": "2019"
+    },
+    {
+      "id": 6,
+      "title": "The Promised Neverland 2nd Season",
+      "img": "https://res.cloudinary.com/kor0sensei/image/upload/v1627919558/Capstone%20Images/tpnl2_fmxem3.jpg",
+      "epCount": 11,
+      "status": "Finished Airing",
+      "seasonOfRelease": "Winter",
+      "yearOfRelease": "2021"
+    },
+    {
+      "id": 7,
+      "title": "Seraph of the End",
+      "img": "https://res.cloudinary.com/kor0sensei/image/upload/v1627919557/Capstone%20Images/seraph_vw0ps2.jpg",
+      "epCount": 12,
+      "status": "Finished Airing",
+      "seasonOfRelease": "Spring",
+      "yearOfRelease": "2015"
+    },
+    {
+      "id": 8,
+      "title": "Seraph of the End: Battle in Nagoya",
+      "img": "https://res.cloudinary.com/kor0sensei/image/upload/v1627919558/Capstone%20Images/seraph2_grhtii.jpg",
+      "epCount": 12,
+      "status": "Finished Airing",
+      "seasonOfRelease": "Fall",
+      "yearOfRelease": "2015"
+    },
+    {
+      "id": 9,
+      "title": "Hunter x Hunter",
+      "img": "https://res.cloudinary.com/kor0sensei/image/upload/v1627919556/Capstone%20Images/hxh_udocbw.jpg",
+      "epCount": 148,
+      "status": "Finished Airing",
+      "seasonOfRelease": "Fall",
+      "yearOfRelease": "2011"
+    },
+    {
+      "id": 10,
+      "title": "Death Note",
+      "img": "https://res.cloudinary.com/kor0sensei/image/upload/v1627919560/Capstone%20Images/deathnote_t7zbaz.jpg",
+      "epCount": 37,
+      "status": "Finished Airing",
+      "seasonOfRelease": "Fall",
+      "yearOfRelease": "2006"
+    },
+    {
+      "id": 11,
+      "title": "Parasyte -the maxim-",
+      "img": "https://res.cloudinary.com/kor0sensei/image/upload/v1627919557/Capstone%20Images/parasyte_swtr8v.jpg",
+      "epCount": 24,
+      "status": "Finished Airing",
+      "seasonOfRelease": "Fall",
+      "yearOfRelease": "2014"
+    },
+    {
+      "id": 12,
+      "title": "Code Geass: Lelouch of the Rebellion",
+      "img": "https://res.cloudinary.com/kor0sensei/image/upload/v1627919560/Capstone%20Images/codegeass_mwutgm.jpg",
+      "epCount": 25,
+      "status": "Finished Airing",
+      "seasonOfRelease": "Fall",
+      "yearOfRelease": "2006"
+    },
+    {
+      "id": 13,
+      "title": "Code Geass: Lelouch of the Rebellion R2",
+      "img": "https://res.cloudinary.com/kor0sensei/image/upload/v1627919560/Capstone%20Images/codegeassr2_txiafp.jpg",
+      "epCount": 25,
+      "status": "Finished Airing",
+      "seasonOfRelease": "Spring",
+      "yearOfRelease": "2008"
+    },
+    {
+      "id": 14,
+      "title": "The Seven Deadly Sins",
+      "img": "https://res.cloudinary.com/kor0sensei/image/upload/v1627919559/Capstone%20Images/7ds_ld763o.jpg",
+      "epCount": 24,
+      "status": "Finished Airing",
+      "seasonOfRelease": "Fall",
+      "yearOfRelease": "2014"
+    },
+    {
+      "id": 15,
+      "title": "The Seven Deadly Sins: Revival of the Commandments",
+      "img": "https://res.cloudinary.com/kor0sensei/image/upload/v1627919559/Capstone%20Images/7ds_rc_ovndye.jpg",
+      "epCount": 24,
+      "status": "Finished Airing",
+      "seasonOfRelease": "Winter",
+      "yearOfRelease": "2018"
+    },
+    {
+      "id": 16,
+      "title": "The Seven Deadly Sins: Wrath of the Gods",
+      "img": "https://res.cloudinary.com/kor0sensei/image/upload/v1627919559/Capstone%20Images/7ds_wg_hmrkzq.jpg",
+      "epCount": 24,
+      "status": "Finished Airing",
+      "seasonOfRelease": "Fall",
+      "yearOfRelease": "2019"
+    },
+    {
+      "id": 17,
+      "title": "The Seven Deadly Sins: Dragon's Judgement",
+      "img": "https://res.cloudinary.com/kor0sensei/image/upload/v1627919559/Capstone%20Images/7ds_dj_m3hpha.jpg",
+      "epCount": 24,
+      "status": "Finished Airing",
+      "seasonOfRelease": "Winter",
+      "yearOfRelease": "2021"
+    },
+    {
+      "id": 18,
+      "title": "Demon Slayer",
+      "img": "https://res.cloudinary.com/kor0sensei/image/upload/v1627919555/Capstone%20Images/demonslayer_hnkkwb.jpg",
+      "epCount": 24,
+      "status": "Finished Airing",
+      "seasonOfRelease": "Spring",
+      "yearOfRelease": "2019"
+    },
+    {
+      "id": 19,
+      "title": "Fire Force",
+      "img": "https://res.cloudinary.com/kor0sensei/image/upload/v1627919555/Capstone%20Images/fireforce_eukxrg.jpg",
+      "epCount": 24,
+      "status": "Finished Airing",
+      "seasonOfRelease": "Summer",
+      "yearOfRelease": "2019"
+    },
+    {
+      "id": 20,
+      "title": "Fire Force Season 2",
+      "img": "https://res.cloudinary.com/kor0sensei/image/upload/v1627919555/Capstone%20Images/fireforce2_spk5a3.jpg",
+      "epCount": 24,
+      "status": "Finished Airing",
+      "seasonOfRelease": "Summer",
+      "yearOfRelease": "2020"
+    },
+    {
+      "id": 21,
+      "title": "Anohana: The Flower We Saw That Day",
+      "img": "https://res.cloudinary.com/kor0sensei/image/upload/v1627919559/Capstone%20Images/anohana_qnqa0y.jpg",
+      "epCount": 11,
+      "status": "Finished Airing",
+      "seasonOfRelease": "Spring",
+      "yearOfRelease": "2011"
+    },
+    {
+      "id": 22,
+      "title": "Attack on Titan",
+      "img": "https://res.cloudinary.com/kor0sensei/image/upload/v1627920697/Capstone%20Images/aot_weucwe.jpg",
+      "epCount": 25,
+      "status": "Finished Airing",
+      "seasonOfRelease": "Spring",
+      "yearOfRelease": "2013"
+    },
+    {
+      "id": 23,
+      "title": "Attack on Titan Season 2",
+      "img": "https://res.cloudinary.com/kor0sensei/image/upload/v1627919560/Capstone%20Images/aot2_t9dids.jpg",
+      "epCount": 12,
+      "status": "Finished Airing",
+      "seasonOfRelease": "Spring",
+      "yearOfRelease": "2017"
+    },
+    {
+      "id": 24,
+      "title": "Attack on Titan Season 3",
+      "img": "https://res.cloudinary.com/kor0sensei/image/upload/v1627919559/Capstone%20Images/aot3_flmc6e.jpg",
+      "epCount": 12,
+      "status": "Finished Airing",
+      "seasonOfRelease": "Summer",
+      "yearOfRelease": "2018"
+    },
+    {
+      "id": 25,
+      "title": "Attack on Titan Season 3 Part 2",
+      "img": "https://res.cloudinary.com/kor0sensei/image/upload/v1627919559/Capstone%20Images/aot3part2_hdj8e0.jpg",
+      "epCount": 10,
+      "status": "Finished Airing",
+      "seasonOfRelease": "Spring",
+      "yearOfRelease": "2019"
+    },
+    {
+      "id": 26,
+      "title": "Attack on Titan: The Final Season",
+      "img": "https://res.cloudinary.com/kor0sensei/image/upload/v1627919559/Capstone%20Images/aotfinal_kknoqo.jpg",
+      "epCount": 16,
+      "status": "Finished Airing",
+      "seasonOfRelease": "Winter",
+      "yearOfRelease": "2021"
+    },
+    {
+      "id": 27,
+      "title": "Assassination Classroom",
+      "img": "https://res.cloudinary.com/kor0sensei/image/upload/v1627919559/Capstone%20Images/assclass_svxku5.jpg",
+      "epCount": 22,
+      "status": "Finished Airing",
+      "seasonOfRelease": "Winter",
+      "yearOfRelease": "2015"
+    },
+    {
+      "id": 28,
+      "title": "Assassination Classroom 2nd Season",
+      "img": "https://res.cloudinary.com/kor0sensei/image/upload/v1627919559/Capstone%20Images/assclass2_skzlvy.jpg",
+      "epCount": 25,
+      "status": "Finished Airing",
+      "seasonOfRelease": "Winter",
+      "yearOfRelease": "2016"
+    },
+    {
+      "id": 29,
+      "title": "Erased",
+      "img": "https://res.cloudinary.com/kor0sensei/image/upload/v1627919555/Capstone%20Images/erased_ep1imy.jpg",
+      "epCount": 12,
+      "status": "Finished Airing",
+      "seasonOfRelease": "Winter",
+      "yearOfRelease": "2016"
+    },
+    {
+      "id": 30,
+      "title": "Naruto",
+      "img": "https://res.cloudinary.com/kor0sensei/image/upload/v1627919556/Capstone%20Images/naruto_vcejnz.jpg",
+      "epCount": 220,
+      "status": "Finished Airing",
+      "seasonOfRelease": "Fall",
+      "yearOfRelease": "2002"
+    },
+    {
+      "id": 31,
+      "title": "Naruto: Shippuuden",
+      "img": "https://res.cloudinary.com/kor0sensei/image/upload/v1627919557/Capstone%20Images/narutoshippuuden_ylflla.jpg",
+      "epCount": 500,
+      "status": "Finished Airing",
+      "seasonOfRelease": "Winter",
+      "yearOfRelease": "2007"
+    },
+    {
+      "id": 32,
+      "title": "Bleach",
+      "img": "https://res.cloudinary.com/kor0sensei/image/upload/v1627919559/Capstone%20Images/bleach_dpqkrb.jpg",
+      "epCount": 366,
+      "status": "Finished Airing",
+      "seasonOfRelease": "Fall",
+      "yearOfRelease": "2004"
+    },
+    {
+      "id": 33,
+      "title": "One Piece",
+      "img": "https://res.cloudinary.com/kor0sensei/image/upload/v1627919557/Capstone%20Images/onepiece_redeso.jpg",
+      "epCount": "?",
+      "status": "Currently Airing",
+      "seasonOfRelease": "Fall",
+      "yearOfRelease": "1999"
+    },
+    {
+      "id": 34,
+      "title": "Rascal Does Not Dream of Bunny Girl Senpai",
+      "img": "https://res.cloudinary.com/kor0sensei/image/upload/v1627919559/Capstone%20Images/bunnygirlsenpai_ofntpi.jpg",
+      "epCount": 12,
+      "status": "Finished Airing",
+      "seasonOfRelease": "Fall",
+      "yearOfRelease": "2018"
+    },
+    {
+      "id": 35,
+      "title": "Cowboy Bebop",
+      "img": "https://res.cloudinary.com/kor0sensei/image/upload/v1627919560/Capstone%20Images/cowboybebop_jfthsw.jpg",
+      "epCount": 26,
+      "status": "Finished Airing",
+      "seasonOfRelease": "Spring",
+      "yearOfRelease": "1998"
+    },
+    {
+      "id": 36,
+      "title": "Neon Genesis Evangelion",
+      "img": "https://res.cloudinary.com/kor0sensei/image/upload/v1627919557/Capstone%20Images/neongenesisevangelion_bdpibl.jpg",
+      "epCount": 26,
+      "status": "Finished Airing",
+      "seasonOfRelease": "Fall",
+      "yearOfRelease": "1995"
+    },
+    {
+      "id": 37,
+      "title": "Darling in the FranXX",
+      "img": "https://res.cloudinary.com/kor0sensei/image/upload/v1627919555/Capstone%20Images/ditf_s2nfwk.jpg",
+      "epCount": 24,
+      "status": "Finished Airing",
+      "seasonOfRelease": "Winter",
+      "yearOfRelease": "2018"
+    },
+    {
+      "id": 38,
+      "title": "The Future Diary",
+      "img": "https://res.cloudinary.com/kor0sensei/image/upload/v1627919555/Capstone%20Images/futurediary_re28gr.jpg",
+      "epCount": 24,
+      "status": "Finished Airing",
+      "seasonOfRelease": "Fall",
+      "yearOfRelease": "2011"
+    },
+    {
+      "id": 39,
+      "title": "The God of High School",
+      "img": "https://res.cloudinary.com/kor0sensei/image/upload/v1627919558/Capstone%20Images/godofhighschool_eqwosv.jpg",
+      "epCount": 13,
+      "status": "Finished Airing",
+      "seasonOfRelease": "Summer",
+      "yearOfRelease": "2020"
+    },
+    {
+      "id": 40,
+      "title": "HoriMiya",
+      "img": "https://res.cloudinary.com/kor0sensei/image/upload/v1627919556/Capstone%20Images/horimiya_xrgv8p.jpg",
+      "epCount": 13,
+      "status": "Finished Airing",
+      "seasonOfRelease": "Winter",
+      "yearOfRelease": "2021"
+    },
+    {
+      "id": 41,
+      "title": "Jujutsu Kaisen",
+      "img": "https://res.cloudinary.com/kor0sensei/image/upload/v1627919556/Capstone%20Images/jjk_edi3x5.jpg",
+      "epCount": 24,
+      "status": "Finished Airing",
+      "seasonOfRelease": "Fall",
+      "yearOfRelease": "2020"
+    },
+    {
+      "id": 42,
+      "title": "Re ZERO -Starting Life in Another World-",
+      "img": "https://res.cloudinary.com/kor0sensei/image/upload/v1627919557/Capstone%20Images/rezero_rufwsb.jpg",
+      "epCount": 25,
+      "status": "Finished Airing",
+      "seasonOfRelease": "Spring",
+      "yearOfRelease": "2016"
+    },
+    {
+      "id": 43,
+      "title": "Re ZERO -Starting Life in Another World- Season 2",
+      "img": "https://res.cloudinary.com/kor0sensei/image/upload/v1627919557/Capstone%20Images/rezero2_yqcjwc.jpg",
+      "epCount": 13,
+      "status": "Finished Airing",
+      "seasonOfRelease": "Summer",
+      "yearOfRelease": "2020"
+    },
+    {
+      "id": 44,
+      "title": "Re ZERO -Starting Life in Another World- Season 2 Part 2",
+      "img": "https://res.cloudinary.com/kor0sensei/image/upload/v1627919557/Capstone%20Images/rezero2part2_ecuchd.jpg",
+      "epCount": 12,
+      "status": "Finished Airing",
+      "seasonOfRelease": "Winter",
+      "yearOfRelease": "2021"
+    },
+    {
+      "id": 45,
+      "title": "Toradora!",
+      "img": "https://res.cloudinary.com/kor0sensei/image/upload/v1627919559/Capstone%20Images/toradora_s3xawr.jpg",
+      "epCount": 25,
+      "status": "Finished Airing",
+      "seasonOfRelease": "Fall",
+      "yearOfRelease": "2008"
+    },
+    {
+      "id": 46,
+      "title": "Kaguya-sama: Love is War",
+      "img": "https://res.cloudinary.com/kor0sensei/image/upload/v1627919555/Capstone%20Images/loveiswar_uetst0.jpg",
+      "epCount": 12,
+      "status": "Finished Airing",
+      "seasonOfRelease": "Winter",
+      "yearOfRelease": "2019"
+    },
+    {
+      "id": 47,
+      "title": "Kaguya-sama: Love is War Season 2",
+      "img": "https://res.cloudinary.com/kor0sensei/image/upload/v1627919556/Capstone%20Images/loveiswar2_ftuyzj.jpg",
+      "epCount": 12,
+      "status": "Finished Airing",
+      "seasonOfRelease": "Spring",
+      "yearOfRelease": "2020"
+    },
+    {
+      "id": 48,
+      "title": "No Game No Life",
+      "img": "https://res.cloudinary.com/kor0sensei/image/upload/v1627919556/Capstone%20Images/nogamenolife_d9bqf9.jpg",
+      "epCount": 12,
+      "status": "Finished Airing",
+      "seasonOfRelease": "Spring",
+      "yearOfRelease": "2014"
+    },
+    {
+      "id": 49,
+      "title": "Violet EverGarden",
+      "img": "https://res.cloudinary.com/kor0sensei/image/upload/v1627919558/Capstone%20Images/violetevergarden_x7zrkz.jpg",
+      "epCount": 12,
+      "status": "Finished Airing",
+      "seasonOfRelease": "Winter",
+      "yearOfRelease": "2018"
+    },
+    {
+      "id": 50,
+      "title": "Vinland Saga",
+      "img": "https://res.cloudinary.com/kor0sensei/image/upload/v1627921255/Capstone%20Images/vinlandsaga_q3tjkd.jpg",
+      "epCount": 24,
+      "status": "Finished Airing",
+      "seasonOfRelease": "Summer",
+      "yearOfRelease": "2019"
+    },
+    {
+      "id": 51,
+      "title": "Tonikaku Kawaii",
+      "img": "https://res.cloudinary.com/kor0sensei/image/upload/v1627919558/Capstone%20Images/tonikaku_r8zsen.jpg",
+      "epCount": 12,
+      "status": "Finished Airing",
+      "seasonOfRelease": "Fall",
+      "yearOfRelease": "2020"
+    },
+    {
+      "id": 52,
+      "title": "Tokyo Ghoul",
+      "img": "https://res.cloudinary.com/kor0sensei/image/upload/v1627919558/Capstone%20Images/tokyoghoul_kztams.jpg",
+      "epCount": 12,
+      "status": "Finished Airing",
+      "seasonOfRelease": "Summer",
+      "yearOfRelease": "2014"
+    },
+    {
+      "id": 52,
+      "title": "Tokyo Ghoul √A",
+      "img": "https://res.cloudinary.com/kor0sensei/image/upload/v1627919558/Capstone%20Images/tokyoghoulroota_l8nsus.jpg",
+      "epCount": 12,
+      "status": "Finished Airing",
+      "seasonOfRelease": "Winter",
+      "yearOfRelease": "2015"
+    },
+    {
+      "id": 53,
+      "title": "Tokyo Ghoul:re",
+      "img": "https://res.cloudinary.com/kor0sensei/image/upload/v1627919558/Capstone%20Images/tokyoghoulre_aebogw.jpg",
+      "epCount": 12,
+      "status": "Finished Airing",
+      "seasonOfRelease": "Spring",
+      "yearOfRelease": "2018"
+    },
+    {
+      "id": 54,
+      "title": "Tokyo Ghoul:re 2nd Season",
+      "img": "https://res.cloudinary.com/kor0sensei/image/upload/v1627919558/Capstone%20Images/tokyoghoulre2_egroom.jpg",
+      "epCount": 12,
+      "status": "Finished Airing",
+      "seasonOfRelease": "Spring",
+      "yearOfRelease": "2018"
+    },
+    {
+      "id": 55,
+      "title": "My Hero Academia",
+      "img": "https://res.cloudinary.com/kor0sensei/image/upload/v1627919556/Capstone%20Images/myhero_q5yg9y.jpg",
+      "epCount": 13,
+      "status": "Finished Airing",
+      "seasonOfRelease": "Spring",
+      "yearOfRelease": "2016"
+    },
+    {
+      "id": 56,
+      "title": "My Hero Academia Season 2",
+      "img": "https://res.cloudinary.com/kor0sensei/image/upload/v1627919556/Capstone%20Images/myhero2_a0k1yp.jpg",
+      "epCount": 25,
+      "status": "Finished Airing",
+      "seasonOfRelease": "Spring",
+      "yearOfRelease": "2017"
+    },
+    {
+      "id": 57,
+      "title": "My Hero Academia Season 3",
+      "img": "https://res.cloudinary.com/kor0sensei/image/upload/v1627919556/Capstone%20Images/myhero3_g7vh0g.jpg",
+      "epCount": 25,
+      "status": "Finished Airing",
+      "seasonOfRelease": "Spring",
+      "yearOfRelease": "2018"
+    },
+    {
+      "id": 58,
+      "title": "My Hero Academia Season 4",
+      "img": "https://res.cloudinary.com/kor0sensei/image/upload/v1627919556/Capstone%20Images/myhero4_msvpfd.jpg",
+      "epCount": 25,
+      "status": "Finished Airing",
+      "seasonOfRelease": "Fall",
+      "yearOfRelease": "2019"
+    },
+    {
+      "id": 59,
+      "title": "My Hero Academia Season 5",
+      "img": "https://res.cloudinary.com/kor0sensei/image/upload/v1627919556/Capstone%20Images/myhero5_lllzsu.jpg",
+      "epCount": 25,
+      "status": "Currently Airing",
+      "seasonOfRelease": "Spring",
+      "yearOfRelease": "2021"
+    },
+    {
+      "id": 60,
+      "title": "Black Clover",
+      "img": "https://res.cloudinary.com/kor0sensei/image/upload/v1627919560/Capstone%20Images/blackclover_qabawy.jpg",
+      "epCount": 170,
+      "status": "Finished Airing",
+      "seasonOfRelease": "Fall",
+      "yearOfRelease": "2017"
+    },
+    {
+      "id": 61,
+      "title": "Rent-a-Girlfriend",
+      "img": "https://res.cloudinary.com/kor0sensei/image/upload/v1627919558/Capstone%20Images/rentagf_anxkft.jpg",
+      "epCount": 12,
+      "status": "Finished Airing",
+      "seasonOfRelease": "Summer",
+      "yearOfRelease": "2020"
+    },
+    {
+      "id": 62,
+      "title": "The Quintessential Quintuplets",
+      "img": "https://res.cloudinary.com/kor0sensei/image/upload/v1627919557/Capstone%20Images/qq_dthpvr.jpg",
+      "epCount": 12,
+      "status": "Finished Airing",
+      "seasonOfRelease": "Winter",
+      "yearOfRelease": "2019"
+    },
+    {
+      "id": 63,
+      "title": "The Quintessential Quintuplets 2",
+      "img": "https://res.cloudinary.com/kor0sensei/image/upload/v1627919557/Capstone%20Images/qq2_d7cvqe.jpg",
+      "epCount": 12,
+      "status": "Finished Airing",
+      "seasonOfRelease": "Winter",
+      "yearOfRelease": "2021"
+    }
+  ],
+  "watchlists": [
+    {
+      "animeId": 1,
+      "dateStartedWatching": "2021-08-12",
+      "dateFinishedWatching": "2021-09-01",
+      "userEpCount": 51,
+      "dropped": false,
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "animeId": 2,
+      "dateStartedWatching": "2021-08-25",
+      "dateFinishedWatching": "2021-08-02",
+      "userEpCount": 64,
+      "dropped": false,
+      "userId": 1,
+      "id": 2
+    },
+    {
+      "id": 3,
+      "animeId": 52,
+      "dateStartedWatching": "2021-08-25",
+      "dateFinishedWatching": "",
+      "userEpCount": 2,
+      "dropped": true,
+      "userId": 1
+    },
+    {
+      "animeId": 8,
+      "dateStartedWatching": "2021-08-10",
+      "dateFinishedWatching": "",
+      "userEpCount": 3,
+      "dropped": false,
+      "userId": 1,
+      "id": 4
+    },
+    {
+      "animeId": 4,
+      "dateStartedWatching": "",
+      "dateFinishedWatching": "",
+      "userEpCount": null,
+      "dropped": false,
+      "userId": 1,
+      "id": 5
+    },
+    {
+      "animeId": 5,
+      "dateStartedWatching": "2021-08-11",
+      "dateFinishedWatching": "2021-08-02",
+      "userEpCount": 12,
+      "dropped": false,
+      "userId": 1,
+      "id": 6
+    },
+    {
+      "id": 7,
+      "animeId": 6,
+      "dateStartedWatching": "2021-08-18",
+      "dateFinishedWatching": "",
+      "userEpCount": 6,
+      "dropped": true,
+      "userId": 1
+    },
+    {
+      "animeId": 60,
+      "dateStartedWatching": "",
+      "dateFinishedWatching": "",
+      "userEpCount": null,
+      "dropped": false,
+      "userId": 1,
+      "id": 8
+    },
+    {
+      "animeId": 45,
+      "dateStartedWatching": "2021-08-18",
+      "dateFinishedWatching": "2021-08-02",
+      "userEpCount": 25,
+      "dropped": false,
+      "userId": 1,
+      "id": 9
+    },
+    {
+      "animeId": 3,
+      "dateStartedWatching": "2021-04-11",
+      "dateFinishedWatching": "",
+      "userEpCount": 17,
+      "dropped": false,
+      "userId": 1,
+      "id": 10
+    },
+    {
+      "id": 11,
+      "animeId": 10,
+      "dateStartedWatching": "2021-08-17",
+      "dateFinishedWatching": "",
+      "userEpCount": 12,
+      "dropped": false,
+      "userId": 1
+    }
+  ]
+}
