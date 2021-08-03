@@ -18,7 +18,7 @@ export const WatchingList = () => {
     Add Anime to Watch List
     </button>
     <h2>Watching</h2>
-    <div className="watchlist">
+    <div className="watchlist__watching">
       {
         watchlists.map(watchlist => {
             if (

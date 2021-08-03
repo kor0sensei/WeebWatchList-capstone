@@ -1,3 +1,10 @@
+.watchlist__dropped {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: column-reverse;
+  }
+
 .watchlist__dropped__card {
     flex-basis: 28%;
     margin: 1em;

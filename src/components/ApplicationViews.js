@@ -4,6 +4,7 @@ import { Home } from "./Home"
 import { AnimeProvider } from "./anime/AnimeProvider"
 import { AnimeList } from "./anime/AnimeList"
 import { AnimeDetail } from "./anime/AnimeDetails"
+import { AnimeSearch } from "./anime/AnimeSearch"
 import { WatchlistProvider } from "./watchlist/WatchlistProvider"
 import { WatchlistListing } from "./watchlist/WatchlistListing"
 import { WatchlistForm } from "./watchlist/WatchlistForm"
@@ -19,6 +20,7 @@ export const ApplicationViews = () => {
             <AnimeProvider>
                 <Route exact path="/">
                     <Home />
+                    <AnimeSearch />
                     <AnimeList />
                 </Route>
 

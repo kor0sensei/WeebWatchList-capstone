@@ -25,6 +25,7 @@ const { getAnimeById } = useContext(AnimeContext)
       <div className="anime__epCount">Ep Count: {anime.epCount}</div>
       <div className="anime__release">Season: {anime.seasonOfRelease} {anime.yearOfRelease}</div>
       <div className="anime__status">Status: {anime.status}</div>
+      <div className="anime__synopsis">Synopsis: {anime.synopsis}</div>
     </section>
   )
 }
