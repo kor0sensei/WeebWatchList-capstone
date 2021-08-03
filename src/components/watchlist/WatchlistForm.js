@@ -15,6 +15,7 @@ export const WatchlistForm = () => {
     dateStartedWatching: "",
     dateFinishedWatching: "",
     userEpCount: "",
+    userRating: "",
     dropped: false,
   });
 
@@ -61,6 +62,7 @@ const handleClickSaveWatchlist = (controlWatchlist) => {
         dateStartedWatching: watchlist.dateStartedWatching,
         dateFinishedWatching: watchlist.dateFinishedWatching,
         userEpCount: parseInt(watchlist.userEpCount),
+        userRating: parseInt(watchlist.userRating),
         dropped: watchlist.dropped,
         userId: parseInt(localStorage.getItem("weeb_user"))
     })
@@ -71,6 +73,7 @@ const handleClickSaveWatchlist = (controlWatchlist) => {
         dateStartedWatching: watchlist.dateStartedWatching,
         dateFinishedWatching: watchlist.dateFinishedWatching,
         userEpCount: parseInt(watchlist.userEpCount),
+        userRating: parseInt(watchlist.userRating),
         dropped: watchlist.dropped,
         userId: parseInt(localStorage.getItem("weeb_user"))
     })
@@ -114,9 +117,9 @@ return (
           <label htmlFor="userEpCount">Eps Seen:</label>
           <input type="text" id="userEpCount" required autoFocus className="form-control" value={watchlist.userEpCount} onChange={handleControlledInputChange} />
           {/* /{anime.find(animeobj => (
-          <label key={anime.id} value={anime.id}>
+          <div key={anime.id} value={anime.id}>
               {animeobj.epCount}
-          </label>
+          </div>
           ))} */}
           </div>
       </fieldset>
@@ -130,6 +133,12 @@ return (
           <div className="form-group">
           <label htmlFor="dateFinishedWatching">Date Finished:</label>
           <input type="date" id="dateFinishedWatching" required autoFocus className="form-control" value={watchlist.dateFinishedWatching} onChange={handleControlledInputChange} />
+          </div>
+      </fieldset>
+      <fieldset>
+          <div className="form-group">
+          <label htmlFor="userRating">Rating:</label>
+          <input type="text" id="userRating" required autoFocus className="form-control" value={watchlist.userRating} onChange={handleControlledInputChange} /> /10
           </div>
       </fieldset>
       <fieldset>

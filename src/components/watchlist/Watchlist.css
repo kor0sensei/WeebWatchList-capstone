@@ -2,14 +2,14 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    flex-direction: column;
-  }
-  
-  .watchlist__card {
-      flex-basis: 28%;
-      margin: 1em;
-      padding: 1em;
-      border: 8px solid rgb(145, 10, 223);
-      box-shadow: 5px 5px 15px 5px #000000;
-      max-width: 500px;
-  }
+    flex-direction: column-reverse;
+}
+
+.watchlist__card {
+    flex-basis: 28%;
+    margin: 1em;
+    padding: 1em;
+    border: 8px solid rgb(145, 10, 223);
+    box-shadow: 5px 5px 15px 5px #000000;
+    max-width: 500px;
+}

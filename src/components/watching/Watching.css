@@ -1,3 +1,10 @@
+.watchlist__watching {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: column-reverse;
+  }
+
 .watchlist__watching__card {
     flex-basis: 28%;
     margin: 1em;

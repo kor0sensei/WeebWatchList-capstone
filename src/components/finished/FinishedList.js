@@ -18,11 +18,11 @@ export const FinishedList = () => {
     Add Anime to Watch List
     </button>
     <h2>Finished</h2>
-    <div className="watchlist">
+    <div className="watchlist__finished">
       {
         watchlists.map(watchlist => {
             if (
-                watchlist.userId == localStorage.getItem("weeb_user") && watchlist.dateFinishedWatching !== ""
+                watchlist.userId == localStorage.getItem("weeb_user") && watchlist.dateFinishedWatching !== "" && watchlist.dropped === false
           ){        return <FinishedCard key={watchlist.id} watchlist={watchlist} />
         }})
       }
