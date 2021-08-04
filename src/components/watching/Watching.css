@@ -12,4 +12,9 @@
     border: 8px solid rgb(0, 255, 13);
     box-shadow: 5px 5px 15px 5px #000000;
     max-width: 500px;
+    text-align: center;
+}
+
+.moreWatchlistH2 {
+  margin-left: 9.5em ;
 }

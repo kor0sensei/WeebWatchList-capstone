@@ -14,10 +14,10 @@ export const PlanToWatchList = () => {
 
   return (
     <>
-    <button onClick={() => {history.push("/watchlist/create")}}>
+    <h2 className="watchlisth2">Plan to Watch</h2>
+    <button className ="addAnimeButton"onClick={() => {history.push("/watchlist/create")}}>
     Add Anime to Watch List
     </button>
-    <h2>Plan to Watch</h2>
     <div className="watchlist__plantowatch">
       {
         watchlists.map(watchlist => {

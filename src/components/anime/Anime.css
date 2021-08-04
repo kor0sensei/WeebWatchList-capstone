@@ -2,7 +2,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    flex-direction: column;
   }
   
   .anime__card {
@@ -11,5 +10,16 @@
       padding: 1em;
       border: 8px solid rgb(239, 243, 11);
       box-shadow: 5px 5px 15px 5px #000000;
-      max-width: 500px;
+      max-width: 300px;
+      text-align: center;
   }
+
+  .anime__detail__card {
+    flex-basis: 28%;
+    margin: 1em;
+    padding: 1em;
+    border: 8px solid rgb(0, 0, 0);
+    box-shadow: 5px 5px 15px 5px #000000;
+    max-width: 800px;
+    text-align: center;
+}
