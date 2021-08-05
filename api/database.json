@@ -763,5 +763,146 @@
       "synopsis": "While on the surface Yuu Otosaka appears to be just another charming and intelligent teenager, he has a secret—he has the ability to slip into people's minds and fully control their body for five seconds at a time. Yuu has been using this skill for years to gain the highest grades, which allowed him to enter a prestigious high school. When the enigmatic Nao Tomori catches Yuu using his power, she coerces him and his sister Ayumi into transferring to Hoshinoumi Academy, a school for students with supernatural abilities. The student council of the school, led by Nao, is tasked with secretly tracking down adolescents who abuse their powers. Yuu is forced to join the student council and together, they face formidable challenges that bring him closer to the shocking truth that his own, seemingly incomplete ability, might be more powerful than he could have ever imagined. An original story from Jun Maeda, creator of Angel Beats and Clannad, Charlotte explores the supernatural lives of these teenagers and the price they must pay for being special."
     }
   ],
-  "watchlists": []
+  "watchlists": [
+    {
+      "animeId": 14,
+      "dateStartedWatching": "2019-10-23",
+      "dateFinishedWatching": "2019-11-05",
+      "userEpCount": 24,
+      "userRating": 8,
+      "dropped": false,
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "animeId": 15,
+      "dateStartedWatching": "2019-12-19",
+      "dateFinishedWatching": "2020-01-02",
+      "userEpCount": 24,
+      "userRating": 8,
+      "dropped": false,
+      "userId": 1,
+      "id": 2
+    },
+    {
+      "animeId": 9,
+      "dateStartedWatching": "2020-02-11",
+      "dateFinishedWatching": "2020-04-14",
+      "userEpCount": 148,
+      "userRating": 9,
+      "dropped": false,
+      "userId": 1,
+      "id": 3
+    },
+    {
+      "animeId": 18,
+      "dateStartedWatching": "2020-04-25",
+      "dateFinishedWatching": "2020-04-30",
+      "userEpCount": 24,
+      "userRating": 9,
+      "dropped": false,
+      "userId": 1,
+      "id": 4
+    },
+    {
+      "animeId": 27,
+      "dateStartedWatching": "2020-06-17",
+      "dateFinishedWatching": "2020-06-25",
+      "userEpCount": 22,
+      "userRating": 7,
+      "dropped": false,
+      "userId": 1,
+      "id": 5
+    },
+    {
+      "id": 6,
+      "animeId": 28,
+      "dateStartedWatching": "2020-07-09",
+      "dateFinishedWatching": "2020-07-15",
+      "userEpCount": 25,
+      "userRating": 8,
+      "dropped": false,
+      "userId": 1
+    },
+    {
+      "animeId": 52,
+      "dateStartedWatching": "2020-08-05",
+      "dateFinishedWatching": "2021-08-10",
+      "userEpCount": 12,
+      "userRating": 9,
+      "dropped": false,
+      "userId": 1,
+      "id": 7
+    },
+    {
+      "animeId": 53,
+      "dateStartedWatching": "2020-08-20",
+      "dateFinishedWatching": "",
+      "userEpCount": 2,
+      "userRating": 5,
+      "dropped": true,
+      "userId": 1,
+      "id": 8
+    },
+    {
+      "animeId": 1,
+      "dateStartedWatching": "2020-08-30",
+      "dateFinishedWatching": "2020-09-09",
+      "userEpCount": 51,
+      "userRating": 8,
+      "dropped": false,
+      "userId": 1,
+      "id": 9
+    },
+    {
+      "animeId": 19,
+      "dateStartedWatching": "2020-09-09",
+      "dateFinishedWatching": "2020-09-17",
+      "userEpCount": 24,
+      "userRating": 7,
+      "dropped": false,
+      "userId": 1,
+      "id": 10
+    },
+    {
+      "animeId": 12,
+      "dateStartedWatching": "2020-09-30",
+      "dateFinishedWatching": "2020-10-02",
+      "userEpCount": 25,
+      "userRating": 10,
+      "dropped": false,
+      "userId": 1,
+      "id": 11
+    },
+    {
+      "animeId": 13,
+      "dateStartedWatching": "2020-10-05",
+      "dateFinishedWatching": "2020-10-08",
+      "userEpCount": 25,
+      "userRating": 10,
+      "dropped": false,
+      "userId": 1,
+      "id": 12
+    },
+    {
+      "animeId": 3,
+      "dateStartedWatching": "2021-04-11",
+      "dateFinishedWatching": "",
+      "userEpCount": 17,
+      "userRating": 9,
+      "dropped": false,
+      "userId": 1,
+      "id": 13
+    },
+    {
+      "id": 14,
+      "animeId": 4,
+      "dateStartedWatching": "",
+      "dateFinishedWatching": "",
+      "userEpCount": null,
+      "userRating": null,
+      "dropped": false,
+      "userId": 1
+    }
+  ]
 }

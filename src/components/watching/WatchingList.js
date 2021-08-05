@@ -22,7 +22,7 @@ export const WatchingList = () => {
       {
         watchlists.map(watchlist => {
             if (
-                watchlist.userId == localStorage.getItem("weeb_user") && watchlist.dateStartedWatching !== "" && watchlist.dateFinishedWatching === "" && watchlist.dropped === false
+                watchlist.userId == localStorage.getItem("weeb_user") && watchlist.dateStartedWatching !== "" && watchlist.dateFinishedWatching === "" && watchlist.dropped === false && watchlist.userEpCount !== ""
           ){        return <WatchingCard key={watchlist.id} watchlist={watchlist} />
         }})
       }
