@@ -22,7 +22,7 @@ export const PlanToWatchList = () => {
       {
         watchlists.map(watchlist => {
             if (
-                watchlist.userId == localStorage.getItem("weeb_user") && watchlist.dateStartedWatching === ""
+                watchlist.userId == localStorage.getItem("weeb_user") && watchlist.dateStartedWatching === "" || watchlist.userEpCount === null
           ){        return <PlanToWatchCard key={watchlist.id} watchlist={watchlist} />
         }})
       }
