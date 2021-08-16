@@ -16,5 +16,10 @@
 }
 
 .moreWatchlistH2 {
-  margin-left: 9.5em ;
+  margin-left: 7.5em;
+  background-color: blueviolet;
+  color: white;
+  border-radius: 5em;
+  max-width: 9em;
+  text-align: center;
 }

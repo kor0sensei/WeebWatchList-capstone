@@ -8,7 +8,7 @@
       flex-basis: 28%;
       margin: 1em;
       padding: 1em;
-      border: 8px solid rgb(239, 243, 11);
+      border: 8px solid blueviolet;
       box-shadow: 5px 5px 15px 5px #000000;
       max-width: 300px;
       text-align: center;
@@ -22,4 +22,17 @@
     box-shadow: 5px 5px 15px 5px #000000;
     max-width: 800px;
     text-align: center;
+}
+
+.detail_title{
+  color: black;
+  transition-duration: .4s;
+  text-decoration: none;
+}
+
+.detail_title:hover{
+  color: white;
+  background-color:blueviolet;
+  border-radius: .5em;
+  text-decoration: none;
 }

@@ -2,6 +2,7 @@ import React, { useContext, useEffect } from "react"
 import { useHistory } from 'react-router-dom';
 import { WatchlistContext } from "../watchlist/WatchlistProvider"
 import { PlanToWatchCard } from "./PlanToWatchCard"
+import { NavBar } from "../nav/NavBar";
 
 export const PlanToWatchList = () => {
   const { watchlists, getWatchlists } = useContext(WatchlistContext)
@@ -14,6 +15,8 @@ export const PlanToWatchList = () => {
 
   return (
     <>
+    <img className = "wwl_page_img" src="https://res.cloudinary.com/kor0sensei/image/upload/v1629129324/Capstone%20Images/WeebWatchList_ukh95t.png"></img>
+    <NavBar />
     <h2 className="watchlisth2">Plan to Watch</h2>
     <button className ="addAnimeButton"onClick={() => {history.push("/watchlist/create")}}>
     Add Anime to Watch List

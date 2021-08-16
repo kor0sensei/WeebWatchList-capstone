@@ -13,7 +13,7 @@ return(
 <>
     <section className="watchlist__dropped__card">
         <Link to={`/anime/detail/${watchlist.anime.id}`}>
-        <h3 className="watchlist__name">{watchlist.anime.title}</h3>
+        <h3 className="detail_title">{watchlist.anime.title}</h3>
         </Link>
         <img className="anime__img" src={watchlist.anime.img} alt={watchlist.anime.title}/>
         <div className="watchlist__userEpCount"> Eps Watched {watchlist.userEpCount} / {watchlist.anime.epCount}</div>

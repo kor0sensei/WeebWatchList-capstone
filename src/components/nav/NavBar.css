@@ -7,4 +7,19 @@
 .navbar-item {
     flex-basis: 25%;
     list-style-type: none;
+    min-width: 10em;
+}
+
+.navbar-link {
+    color: black;
+    border-radius: .5em;
+    text-decoration: none;
+    transition-duration: .4s;
+}
+
+.navbar-link:hover{
+    color: lightgray;
+    background-color:blueviolet;
+    border-radius: .5em;
+    text-decoration: none;
 }

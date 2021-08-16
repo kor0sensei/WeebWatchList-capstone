@@ -147,7 +147,7 @@ return (
             <input type="checkbox" id="dropped" unchecked="" onChange={handleCheckBox} />
           </div>
       </fieldset>
-      <button className="btn btn-primary" disabled={isLoading} onClick={handleClickSaveWatchlist}>
+      <button className="addAnimeButton" disabled={isLoading} onClick={handleClickSaveWatchlist}>
       {watchlistId ? "Update Watchlist" : "Add Anime to Watchlist" }
           </button>
       </form>

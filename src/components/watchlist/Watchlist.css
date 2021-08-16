@@ -9,16 +9,78 @@
     flex-basis: 28%;
     margin: 1em;
     padding: 1em;
-    border: 8px solid rgb(145, 10, 223);
+    border: 8px solid blueviolet;
     box-shadow: 5px 5px 15px 5px #000000;
     max-width: 500px;
     text-align: center;
 }
 
-.watchlisth2 {
-    margin-left: 8.5em;
-}
-
 .addAnimeButton {
     margin-left: 15.5em;
+    max-height: 5em;
+    border-radius: 5em;
+    transition-duration: .4s;
 }
+
+.addAnimeButton:hover {
+    color: white;
+    background-color: blueviolet;
+}
+
+.editButton {
+    border-radius: 5em;
+    color: lightgray;
+    background-color: darkgreen;
+    transition-duration: .4s;
+}
+
+.editButton:hover {
+    color:white;
+    background-color: green;
+}
+
+.deleteButton {
+    border-radius: 5em;
+    color: lightgrey;
+    background-color: darkred;
+    transition-duration: .4s;
+}
+.deleteButton:hover {
+    color:white;
+    background-color: red;
+}
+
+  .wwl_page_img {
+    margin-left: 19.60em;
+    border-radius: 5em;
+}
+.watchlisth2 {
+    margin-left: 6.5em;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 5em;
+    max-width: 11em;
+    text-align: center;
+}
+
+.detail_title{
+    color: black;
+    transition-duration: .4s;
+    text-decoration: none;
+  }
+  
+  .detail_title:hover{
+    color: white;
+    background-color:blueviolet;
+    border-radius: .5em;
+    text-decoration: none;
+  }
+  
+  .watchlistForm__title{
+    background-color: blueviolet;
+    color: white;
+    border-radius: 5em;
+    max-width: 20em;
+    text-align: center;
+
+  }
