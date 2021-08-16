@@ -1,7 +1,6 @@
 import React from "react";
 import { Route, Redirect } from "react-router-dom";
 import { ApplicationViews } from "./ApplicationViews";
-import { NavBar } from "./nav/NavBar";
 import { Login } from "./auth/Login";
 import { Register } from "./auth/Register";
 import "./WeebWatchList.css";
@@ -13,7 +12,6 @@ export const WeebWatchList = () => (
         if (localStorage.getItem("weeb_user")) {
           return (
             <>
-              <NavBar />
               <ApplicationViews />
             </>
           );

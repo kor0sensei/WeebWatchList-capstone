@@ -1,3 +1,13 @@
-.Home {
+.home__img{
+    border-radius: 5em;
+    margin-left: 19.60em;
+}
+
+.anime__titleh2{
+    margin-left: 29em;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 5em;
+    max-width: 23em;
     text-align: center;
 }
